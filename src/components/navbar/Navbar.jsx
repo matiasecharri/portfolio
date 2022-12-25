@@ -14,7 +14,7 @@ export default function Navbar() {
       ></button>
       {isOpen && (
         <nav>
-          <button>Matias </button>
+          <button >Matias </button>
           <button>Works</button>
           <button>Skills</button>
           <button>Contact</button>
