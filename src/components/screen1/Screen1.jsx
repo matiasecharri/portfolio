@@ -15,7 +15,9 @@ export default function Screen1() {
         </article>
         <div className="containerMain">
           <div className="titular">
-            <h1>Matias Echarri</h1>
+            <h1 data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">Matias Echarri</h1>
             <p>
               Digital Artist (Developer, Designer, UI/UX) <br />
               <span>デジタルアーティスト</span>
