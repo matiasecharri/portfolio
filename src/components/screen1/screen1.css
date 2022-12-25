@@ -1,9 +1,22 @@
+/* /--------------------------------------ScrollBar Webkit */
+::-webkit-scrollbar {
+  /* Modifica los estilos de la barra de scroll */
+  width: 2px; /* Ancho de la barra de scroll */
+  background-color:rgb(32, 32, 35); /* Color de fondo de la barra de scroll */
+}
+::-webkit-scrollbar-thumb {
+  /* Modifica los estilos de la parte deslizante de la barra de scroll */
+  background-color: rgb(78, 78, 78); /* Color de fondo de la parte deslizante de la barra de scroll */
+}
+
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
   font-family: "Roboto", sans-serif !important;
 }
+
+
 
 header{
     height: 38vh;
