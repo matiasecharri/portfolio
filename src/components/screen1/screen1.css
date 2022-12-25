@@ -12,7 +12,7 @@ header{
     display: flex;
     justify-content: center;
     align-items:flex-end;
-    gap: 1px;
+    gap: 2px;
     
 }
 header img {
@@ -59,9 +59,9 @@ main {
 }
 
 main h1 {
-  font-weight: 700;
+  font-weight: 300;
   
-  color: aliceblue;
+  color: rgb(223, 187, 210);
   font-family: 'Nunito', sans-serif !important;
   margin-top: 10px;
   margin-left: 1px;
