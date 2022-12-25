@@ -15,7 +15,7 @@ export default function Navbar() {
       ></button>
       {isOpen && (
         <nav>
-          <button data-aos="fade-down" data-aos-duration="1200">
+          <button data-aos="fade-down" data-aos-duration="1200" >
             Me
           </button>
           <button data-aos="fade-down" data-aos-duration="1300">
