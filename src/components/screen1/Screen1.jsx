@@ -4,11 +4,12 @@ import "./screen1.css";
 export default function Screen1() {
   return (
     <>
-     <header>
-     <img src="https://media.discordapp.net/attachments/763661782555426817/1056489763844137060/pngwing.com_1.png" alt="" srcset="" />
+     <header >
+     <img src="https://media.discordapp.net/attachments/763661782555426817/1056550865827283074/ladoizquierdo.png" alt="" srcset=""  />
+     <img src="https://media.discordapp.net/attachments/763661782555426817/1056550866167025695/ladoderecho.png" alt="" srcset="" />
       </header>
       <main>
-        <article>
+        <article data-aos="fade-up">
           <h2>Hello, im a full-stack developer based in Buenos Aires.</h2>
         </article>
         <div className="containerMain">

@@ -6,17 +6,20 @@
 }
 
 header{
-    height: 30vh;
+    height: 38vh;
     background-color:rgb(32, 32, 35);
+    
     display: flex;
     justify-content: center;
-    align-items: center;
-  
+    align-items:flex-end;
+    gap: 1px;
+    
 }
 header img {
     margin-top: 50px;
-    width: 250px;
+    width: 96px;
     height: 250px;
+   
 }
 header h2{
     color: rgb(233, 214, 175);
@@ -27,6 +30,7 @@ article {
   width: 450px;
   height: 6vh;
   background-color: rgba(241, 236, 236, 0.055);
+  
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -43,6 +47,7 @@ article h2 {
 }
 main {
   background-color: rgb(32, 32, 35);
+  
 
   height: 92vh;
   width: 100%;
@@ -105,8 +110,8 @@ main p {
 .aYdibella{
 margin-top: 4px;
     background-color: rgb(240, 241, 238);
-    background-image: url(https://media.discordapp.net/attachments/763661782555426817/1056486119547609129/image.png);
-    filter: grayscale(10%); /* 100% es el nivel máximo de gris */
+    background-image: url(https://media.discordapp.net/attachments/763661782555426817/1056549314731712582/image.png);
+    filter: grayscale(0%); /* 100% es el nivel máximo de gris */
     background-size:cover ;
     width: 100px;
     height: 100px;
@@ -114,7 +119,4 @@ margin-top: 4px;
 }
 
 
-/* 
-  background: #ECE9E6;  
-background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  
-background: linear-gradient(to right, #FFFFFF, #ECE9E6);  */
+
