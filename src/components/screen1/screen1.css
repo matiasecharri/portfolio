@@ -12,7 +12,8 @@ header{
     display: flex;
     justify-content: center;
     align-items:flex-end;
-    gap: 2px;
+    gap: 1px;
+    border-bottom: 2px solid rgb(32, 32, 35);
     
 }
 header img {
