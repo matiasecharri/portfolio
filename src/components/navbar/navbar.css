@@ -6,11 +6,11 @@
 
 }
 nav {
-  background-color: rgb(32, 32, 31);
+  background-color:  rgb(31, 31, 34);
 
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 10px;
   align-items: center;
   min-height: 8vh;
 }
@@ -19,7 +19,16 @@ nav button {
   border: none;
   background-color: rgba(255, 255, 255, 0);
   font-size: 14px;
+  padding: 10px;
   color: rgb(243, 243, 243);
   cursor: pointer;
   font-weight: 300;
+}
+
+
+nav button:hover {
+ background-color: rgba(239, 245, 245, 0.055);
+ border-radius: 5px;
+ transition-duration: 400ms;
+
 }

@@ -5,10 +5,28 @@
   font-family: "Roboto", sans-serif !important;
 }
 
+header{
+    height: 30vh;
+    background-color:rgb(32, 32, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+header img {
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+}
+header h2{
+    color: rgb(233, 214, 175);
+    font-weight: 300;
+}
+
 article {
   width: 450px;
   height: 6vh;
-  background-color: rgba(226, 224, 224, 0.055);
+  background-color: rgba(241, 236, 236, 0.055);
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -25,7 +43,7 @@ article h2 {
 }
 main {
   background-color: rgb(32, 32, 35);
-  height: 100vh;
+  height: 92vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -36,17 +54,21 @@ main {
 
 main h1 {
   font-weight: 700;
-  margin-left: 10px;
+  
   color: aliceblue;
   font-family: 'Nunito', sans-serif !important;
+  margin-top: 10px;
+  margin-left: 1px;
+
 
   
 }
 main p {
     font-weight: 200;
-    margin-left: 10px;
+    
     color: aliceblue;
     font-family: 'Nunito', sans-serif !important;
+    margin-left: 1px;
   
     
   }
@@ -58,11 +80,13 @@ main p {
  
   border-radius: 8px;
   width: 450px;
-  margin-bottom: 90px;
+
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  
+
+ 
+ 
 }
 
 .containerMain span {
@@ -70,9 +94,21 @@ main p {
 }
 .titular{
    
-    width: 100%;
+    width: 80%;
     height: 10vh;
     border-radius: 8px;
     font-family: 'Nunito', sans-serif !important;
+   
+}
+
+.aYdibella{
+margin-top: 4px;
+    background-color: rgb(240, 241, 238);
+    background-image: url(https://media.discordapp.net/attachments/763661782555426817/1056486119547609129/image.png);
+    filter: grayscale(10%); /* 100% es el nivel máximo de gris */
+    background-size:cover ;
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
 }
 
