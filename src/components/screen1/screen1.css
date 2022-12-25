@@ -43,6 +43,7 @@ article h2 {
 }
 main {
   background-color: rgb(32, 32, 35);
+
   height: 92vh;
   width: 100%;
   display: flex;
@@ -112,3 +113,8 @@ margin-top: 4px;
     border-radius: 180px;
 }
 
+
+/* 
+  background: #ECE9E6;  
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  
+background: linear-gradient(to right, #FFFFFF, #ECE9E6);  */
