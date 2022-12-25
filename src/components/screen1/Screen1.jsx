@@ -10,14 +10,12 @@ export default function Screen1() {
       </header>
       <main>
         
-        <article data-aos="fade-up">
+        <article>
           <h2>Hello, im a full-stack developer based in Buenos Aires.</h2>
         </article>
         <div className="containerMain">
           <div className="titular">
-            <h1 data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">Matias Echarri</h1>
+            <h1>Matias Echarri</h1>
             <p>
               Digital Artist (Developer, Designer, UI/UX) <br />
               <span>デジタルアーティスト</span>
