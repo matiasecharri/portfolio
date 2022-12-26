@@ -1,0 +1,186 @@
+/* /--------------------------------------ScrollBar Webkit */
+::-webkit-scrollbar {
+  /* Modifica los estilos de la barra de scroll */
+  width: 2px; /* Ancho de la barra de scroll */
+  background-color:rgb(32, 32, 35); /* Color de fondo de la barra de scroll */
+}
+::-webkit-scrollbar-thumb {
+  /* Modifica los estilos de la parte deslizante de la barra de scroll */
+  background-color: rgb(78, 78, 78); /* Color de fondo de la parte deslizante de la barra de scroll */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif !important;
+}
+
+
+
+header{
+    height: 38vh;
+    background-color:rgb(32, 32, 35);
+    
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    gap: 1px;
+    border-bottom: 2px solid rgb(32, 32, 35);
+    
+}
+header img {
+    margin-top: 50px;
+    width: 96px;
+    height: 250px;
+   
+}
+header h2{
+    color: rgb(233, 214, 175);
+    font-weight: 300;
+}
+
+article {
+  width: 450px;
+  height: 6vh;
+  background-color: rgba(241, 236, 236, 0.055);
+  
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+article h2 {
+  font-size: 10px;
+  color: rgb(237, 238, 240);
+  font-weight: 400;
+  font-size: 15px;
+
+}
+main {
+  background-color: rgb(32, 32, 35);
+  
+
+  height: 92vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main h1 {
+  font-weight: 300;
+  
+  color: rgb(223, 187, 210);
+  font-family: 'Nunito', sans-serif !important;
+  margin-top: 10px;
+  margin-left: 1px;
+
+
+
+  
+}
+main p {
+    font-weight: 200;
+    
+    color: aliceblue;
+    font-family: 'Nunito', sans-serif !important;
+    margin-left: 1px;
+  
+    
+  }
+
+
+
+.containerMain {
+  height: 70vh;
+ 
+  border-radius: 8px;
+  width: 450px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+ 
+ 
+}
+
+.containerMain span {
+    color: rgb(233, 214, 175);
+}
+.titular{
+   
+    width: 80%;
+    height: 10vh;
+    border-radius: 8px;
+    font-family: 'Nunito', sans-serif !important;
+   
+}
+
+.aYdibella{
+margin-top: 4px;
+    background-color: rgb(240, 241, 238);
+    background-image: url(https://media.discordapp.net/attachments/763661782555426817/1056549314731712582/image.png);
+    filter: grayscale(0%); /* 100% es el nivel máximo de gris */
+    background-size:cover ;
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
+}
+
+
+@media (max-width: 491px) {
+   
+article{
+  
+  width: 80%;
+  
+}
+
+article h2 {
+  font-size: 12px;
+  padding: 10px;
+}
+
+.containerMain{
+  width: 80%;
+}
+
+
+.containerMain h1{
+  font-size: 25px;
+}
+
+.containerMain p{
+  font-size: 14px;
+}
+
+.aYdibella{
+  width: 80px;
+  height: 80px;
+}
+}
+
+
+@media (max-width: 410px) {
+
+
+  .opbuton{
+    left: 20px;
+  }
+}
+
+@media (max-width: 406px) {
+
+
+  .opbuton2{
+    left: 70px;
+  }
+}
+
+
