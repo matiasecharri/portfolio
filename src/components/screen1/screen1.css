@@ -167,3 +167,20 @@ article h2 {
 }
 
 
+@media (max-width: 410px) {
+
+
+  .opbuton{
+    left: 20px;
+  }
+}
+
+@media (max-width: 406px) {
+
+
+  .opbuton2{
+    left: 70px;
+  }
+}
+
+
