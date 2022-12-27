@@ -23,7 +23,9 @@ export default function Screen1() {
           </div>
           <div className="aYdibella"></div>
         </div>
+      
       </main>
+      
     </>
   );
 }
