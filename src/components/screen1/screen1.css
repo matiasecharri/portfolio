@@ -28,7 +28,8 @@ header{
     align-items:flex-end;
     gap: 1px;
     border-bottom: 2px solid rgb(32, 32, 35);
-    
+
+  
 }
 header img {
     margin-top: 50px;
