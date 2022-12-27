@@ -129,13 +129,25 @@ main p {
 .aYdibella{
 margin-top: 4px;
     background-color: rgb(240, 241, 238);
-    background-image: url(https://media.discordapp.net/attachments/763661782555426817/1056549314731712582/image.png);
+    background-image: url(https://media.discordapp.net/attachments/686233051692400679/1056932187674521680/image.png);
     filter: grayscale(0%); /* 100% es el nivel máximo de gris */
     background-size:cover ;
     width: 100px;
     height: 100px;
     border-radius: 180px;
 }
+
+
+
+
+section { 
+
+  background-color: aliceblue;
+  height: 20vh; 
+  width: 100%;
+}
+
+
 
 
 @media (max-width: 491px) {
