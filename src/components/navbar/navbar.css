@@ -15,8 +15,7 @@ nav {
   top: 35.8%;
   left: 134px;
   transform: translate(-50%, -50%);
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+ 
 
   background-color: rgba(240, 239, 239, 0);
 
@@ -38,13 +37,15 @@ nav button {
   
   font-size: 12px;
   padding: 10px;
-  color: rgb(243, 243, 243);
+  color: rgb(243, 238, 238);
   cursor: pointer;
 
   font-weight: 300;
-  
  
 }
+
+
+
 
 nav button:hover {
  
@@ -129,8 +130,7 @@ border-radius: 50px;
 @media (max-width: 820px) {
 
     nav{
-      backdrop-filter: blur(3px);
-      -webkit-backdrop-filter: blur(3px);
+   
       background-color: rgba(22, 22, 22, 0);
 flex-direction: row;
 width: 80%;

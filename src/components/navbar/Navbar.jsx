@@ -15,16 +15,16 @@ export default function Navbar() {
       ></button>
       {isOpen && (
         <nav>
-          <button data-aos="fade-down" data-aos-duration="1200">
+          <button className="butonbackdrop" data-aos="fade-down" data-aos-duration="1200">
             Me
           </button>
-          <button data-aos="fade-down" data-aos-duration="1300">
+          <button  className="butonbackdrop"data-aos="fade-down" data-aos-duration="1300">
             Works
           </button>
-          <button data-aos="fade-down" data-aos-duration="1400">
+          <button className="butonbackdrop" data-aos="fade-down" data-aos-duration="1400">
             Skills
           </button>
-          <button data-aos="fade-down" data-aos-duration="1800">
+          <button  className="butonbackdrop"data-aos="fade-down" data-aos-duration="1800">
             Contact
           </button>
         </nav>

@@ -23,6 +23,10 @@ export default function Screen1() {
           </div>
           <div className="aYdibella"></div>
         </div>
+        <div className="containerMain2">
+          
+        </div>
+      
       
       </main>
       
