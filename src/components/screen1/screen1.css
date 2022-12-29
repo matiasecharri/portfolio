@@ -17,12 +17,21 @@
 
 }
 
+.contenedorMichael{
+  position: absolute;
+  height: 30vh;
+  width: 40%;
+  /* left: 690px; */
+top: 120px;
 
+  
+ 
+}
 
 header{
-    height: 38vh;
-    background-color:rgb(32, 32, 35);
-    
+    height: 30vh;
+   
+    background-color: rgb(32, 32, 35);
     display: flex;
     justify-content: center;
     align-items:flex-end;
