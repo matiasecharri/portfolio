@@ -22,12 +22,13 @@ export default function Screen1() {
               depth={1.5} // Z-dir depth
               segments={20} // Number of particles
             /> */}
+            
             <ambientLight intensity={0.2}></ambientLight>
-            <pointLight position={[45, 85, 0]} intensity={0.4} />
+            <pointLight position={[55, 55, 0]} intensity={0.4} />
             <pointLight position={[-35, 35, 0]} intensity={0.4} />
             <Suspense fallback={null}></Suspense>
             <OrbitControls></OrbitControls>
-            <Michael speed={0.4}depth={1.5}></Michael>
+            <Michael speed={0.5}depth={1.5}></Michael>
           </Canvas>
         </div>
         {/* <img  data-aos="fade-down" data-aos-duration="2000" src="https://media.discordapp.net/attachments/763661782555426817/1056550865827283074/ladoizquierdo.png" alt="" srcset=""  />
