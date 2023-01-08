@@ -31,8 +31,8 @@ export default function Screen1() {
             <Michael speed={0.5}depth={1.5}></Michael>
           </Canvas>
         </div>
-        <img  data-aos="fade-down" data-aos-duration="2000" src="https://media.discordapp.net/attachments/763661782555426817/1056550865827283074/ladoizquierdo.png" alt="" srcset=""  />
-     <img data-aos="fade-up" data-aos-duration="2500"  src="https://media.discordapp.net/attachments/763661782555426817/1056550866167025695/ladoderecho.png" alt="" srcset="" />
+        {/* <img  data-aos="fade-down" data-aos-duration="2000" src="https://media.discordapp.net/attachments/763661782555426817/1056550865827283074/ladoizquierdo.png" alt="" srcset=""  />
+     <img data-aos="fade-up" data-aos-duration="2500"  src="https://media.discordapp.net/attachments/763661782555426817/1056550866167025695/ladoderecho.png" alt="" srcset="" /> */}
       </header>
       <main>
         <article>
